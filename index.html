@@ -3,9 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Speed Typing Game</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <main>
+        <div id="intro-screen"> 
+            <h1>Type speed game</h1>
+            <img src="" alt=""/>
+            <br/>
+            <button id ="start-game-button"> Start!</button>
+            <p>Try to be the fastest of the world!</p>
+            <img src="assets/images/olympia_deluxe_d.gif"
+        </div>
+
+        <div id="game-container">
+            <div class="box-container">
+                <h2>Let's type as fast as possible!</h2>
+                <input type ="text" class ="text-field">
+                <div class="text-container">
+                    <div class="typing">
+                        <p></p>
+                    </div>
+                    <div class="game-info">
+                        <ul class="game-stats">
+                            <li class="time">
+                                <p>Time remaining</p>
+                                <p class="reg">60</p>
+                            </li>
+                            <li class="errors">
+                                <p>Errors</p>
+                                <p class="reg">0</p>
+                            </li>
+                            <li class="speed">
+                                <p>speed</p>
+                                <p class="reg">0</p>
+                            </li>
+
+                        </ul>
+                        <button>Restart</button>
+                    </div>    
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
     
 </body>
 </html>
