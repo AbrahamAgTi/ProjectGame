@@ -11,48 +11,47 @@
 </head>
 <body>
     <main>
-        <div id="intro-screen"> 
+        <!--If i have time, add an intro page
+
+            <div id="intro-screen"> 
             <h1>Type speed game</h1>
             <img src="" alt=""/>
             <br/>
             <button id ="start-game-button"> Start!</button>
             <p>Try to be the fastest of the world!</p>
             <img src="assets/images/olympia_deluxe_d.gif"
-        </div>
+        </div>-->
 
         <div id="game-container">
-            <div class="box-container">
-                <h2>Let's type as fast as possible!</h2>
-                <input type ="text" class ="text-field">
-                <div class="text-container">
-                    <div class="typing">
-                        <p></p>
+            <h2>Type as fast as you can!</h2>
+            <div class="limits">
+                <div class="container">
+                    <div class="paragraphs">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ex praesentium illo itaque molestiae quidem quae id fuga consequatur sed eveniet exercitationem, voluptate illum recusandae? Iure hic sapiente consequatur modi.</p>
                     </div>
-                    <div class="game-info">
-                        <ul class="game-stats">
-                            <li class="time">
-                                <p>Time remaining</p>
-                                <p class="reg">60</p>
+                    <div class="data">
+                        <ul class="scores">
+                            <li class="countdown">
+                                <p>Countdown:</p>
+                                <span>60</span>
                             </li>
-                            <li class="errors">
-                                <p>Errors</p>
-                                <p class="reg">0</p>
+                            <li class="Mistakes">
+                                <p>Mistakes</p>
+                                <span>0</span>
                             </li>
-                            <li class="speed">
-                                <p>speed</p>
-                                <p class="reg">0</p>
+                            <li class="Speed">
+                                <p>Words/minute:</p>
+                                <span>0</span>
                             </li>
-
                         </ul>
-                        <button>Restart</button>
-                    </div>    
+                    </div>
                 </div>
             </div>
-
+            <button class ="remake">Restart</button> 
         </div>
     </main>
+<script> src="/src/main.js" </script>
+<script> src="/src/Paragraphs.js" </script>
 
-
-    
 </body>
 </html>

@@ -1,3 +1,8 @@
+const inputText = document.getElementsByClassName("text-container")
+
+
+
+
 // code to listen to the key that was inserted
 document.addEventListener('keydown', function(event) {
     // Ensure that the key pressed is a letter
@@ -21,6 +26,10 @@ function checkLetter(letter){
     if (letter == mainWord[currentLetter]){
        //what should happen? we should go to the next index right?
     }
- 
+ }
+
+ randomParagraphs() {
+    let randPar = Math.floor(Math.random() * phrases.length)
+
  }
  

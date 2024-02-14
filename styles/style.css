@@ -13,56 +13,74 @@ body{
     background-color: aqua;
 }
 
-.box-container{
-    width: 800px;
-    padding:40px;
-    background-color: blue;
-    color:white;
-    border-radius: 10px;
-    margin: 20px;
+h2{
+    text-align: center;
+    font-size: 36px;
+    margin: 30px;
 }
 
-.box-container .text-container{
-    padding: 15px 20px 0;
-    border-radius: 10px;
-    
+.limits {
+    width: 770px;
+    padding: 35px;
+    background: black;
+    color: white;
+    border-radius: 10px;  
+};
+
+.paragraphs p {
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 1px;
 }
 
-.box-container .game-info{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    line-break: auto;
-}
+.typing-text p span {
+    position: relative;
+  }
 
-.game-info button{
-    width:100px;
-    padding: 8px 0;
-    font-size: 16px;
-    cursor:pointer;
-    border-radius: 10px;
-    background-color: grey;
-}
+.container .data {
+   margin-top: 17px;
+   display: flex;
+   padding: 12px 0;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   border-top: 1px solid #bfbfbf;
+   line-break: auto;
+  }
 
-.game-stats li {
+.data .scores {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   width: calc(100% - 140px);
+   justify-content: space-between;
+  }
+
+  .scores li{
     display: flex;
     height: 20px;
     list-style: none;
     position: relative;
     align-items: center;
-}
+  }
 
-.reg {
+  .scores li span{
     display: block;
-    font-size: 20px;
     margin-left: 10px;
+    
+  }
+
+  .remake{
+    border: none;
+    width: 105px;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    background:grey;
+    margin:15px;
 }
 
-.errors{
-    color:red
-}
 
-.time {
-    color:yellow
-}
+
+  
